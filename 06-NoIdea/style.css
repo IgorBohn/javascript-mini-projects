@@ -1,0 +1,73 @@
+body {
+    background: rgb(33, 33, 88);
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.cabeca {
+    background: darkkhaki;
+    width: 100px;
+    height: 120px;
+    border-radius: 45%;
+}
+
+.olhos {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 60px;
+}
+
+.olho {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background: whitesmoke;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+
+.pupila {
+    background: black;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
+
+.nariz {
+    background: #bdb76b;
+    border: 1px solid #88844c;
+    width: 20px;
+    height: 20px;
+    margin: 0 auto;
+    border-radius: 50% 50% 0 0;
+}
+
+.boca {
+    display: flex;
+    justify-content: space-around;
+    background: black;
+    width: 60px;
+    height: 15px;
+    margin: 0 auto;
+    border-radius: 40%;
+    margin-top: 10px;
+}
+
+.dente {
+    background: white;
+    width: 5px;
+    height: 5px;
+}
+
+.pescoco {
+    background: #bdb76b;
+    width: 20px;
+    height: 20px;
+    margin-top: -2px;
+}
