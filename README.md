@@ -1,2 +1,1 @@
-# learn-javascript
-Javascript Learning
+# javascript-mini-projects
